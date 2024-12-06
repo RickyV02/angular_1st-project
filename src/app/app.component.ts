@@ -1,3 +1,4 @@
+import { TasksService } from './tasks/tasks.service';
 import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { UserComponent } from './user/user.component';
@@ -22,4 +23,5 @@ export class AppComponent {
   onSelectUser(id: string) {
     this.selectedUserId = id;
   }
+
 }
